@@ -10,10 +10,17 @@ let re = /[^aeiou]+/; // regular expression for consonants (1 or more times)
 let str = 'bcde';
 
 function translatePigLatin(str) {
+  //console.log(str.search(re));
+  console.log(indexOfFirstVowel(str));
   return str;
 }
 
-translatePigLatin("consonant");
+translatePigLatin("bcde");
+
+function indexOfFirstVowel(word){
+  let matches = word.match(re);
+  return matches[0].length;
+}
 
 function startsWithVowel(word){
   // determines if word starts with vowel
