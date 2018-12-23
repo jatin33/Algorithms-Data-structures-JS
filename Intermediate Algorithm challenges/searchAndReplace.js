@@ -25,12 +25,13 @@ function capitalizeFirstLetter(word){
   return word[0].toUpperCase() + word.substring(1);
 }
 
-myReplace("Let us go to the store", "store", "mall") should return "Let us go to the mall".
-Passed
-myReplace("He is Sleeping on the couch", "Sleeping", "sitting") should return "He is Sitting on the couch".
-Passed
-myReplace("This has a spellngi error", "spellngi", "spelling") should return "This has a spelling error".
-Passed
-myReplace("His name is Tom", "Tom", "john") should return "His name is John".
-Passed
-myReplace("Let us get back to more Coding", "Coding", "algorithms") should return "Let us get back to more Algorithms".
+//===================================Test Cases=========================================
+// myReplace("Let us go to the store", "store", "mall") should return "Let us go to the mall".
+// Passed
+// myReplace("He is Sleeping on the couch", "Sleeping", "sitting") should return "He is Sitting on the couch".
+// Passed
+// myReplace("This has a spellngi error", "spellngi", "spelling") should return "This has a spelling error".
+// Passed
+// myReplace("His name is Tom", "Tom", "john") should return "His name is John".
+// Passed
+// myReplace("Let us get back to more Coding", "Coding", "algorithms") should return "Let us get back to more Algorithms".
