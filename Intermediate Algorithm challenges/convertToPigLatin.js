@@ -6,19 +6,15 @@
 
 // Input strings are guaranteed to be English words in all lowercase.
 
-let re = /[^aeiou]+/; // regular expression for consonants (1 or more times)
-let str = 'bcde';
-
 function translatePigLatin(str) {
-  //console.log(str.search(re));
-  console.log(indexOfFirstVowel(str));
+  console.log(indexOfFirstVowel(str)); 
   return str;
 }
 
 translatePigLatin("bcde");
 
 function indexOfFirstVowel(word){
-  let matches = word.match(re);
+  let matches = word.match(/[^aeiou]+/);
   return matches[0].length;
 }
 
