@@ -1,25 +1,20 @@
-function spinalCase(str) {
 
-  return str;
+function spinalCase(str) {
+  let arrOfWords = extractWords(str);
+  return spinalItUp(extractWords(str));
 }
 
 function extractWords(phrase){
-  //creates array of words and returns array of words all in lowercase
-  
-}
-
-function isUpperCase(letter){
-  return letter === letter.toUpperCase();
+  // creates and returns array of words
+  // here word means sequence of letters followed by underscore,space or at least one Capital letter
+  // regular expression helps to materialize above statement
+  let re = /\s|_|(?=[A-Z])/;
+  return phrase.split(re);
 }
 
 function spinalItUp(arr){
-//takes array of words and returns string with hyphens in bw
-let spinaledString = '';
-for(let i = 0; i < arr.length - 1; i++){
-  spinaledString = arr[i] + '-';
-}
-spinaledString = spinaledString + arr[arr.length-1];
-return spinaledString;
+//takes array of words and returns string of lowercase words with hyphens in between
+return arr.join('-').toLowerCase();
 }
 
 spinalCase('This Is Spinal Tap');
