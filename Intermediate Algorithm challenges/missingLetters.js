@@ -19,3 +19,14 @@ function fearNotLetter(str) {
   }
 }
 fearNotLetter("bcdf");
+
+// =================Test Cases=================
+// fearNotLetter("abce") should return "d".
+// Passed
+// fearNotLetter("abcdefghjklmno") should return "i".
+// Passed
+// fearNotLetter("stvwx") should return "u".
+// Passed
+// fearNotLetter("bcdf") should return "e".
+// Passed
+// fearNotLetter("abcdefghijklmnopqrstuvwxyz") should return undefined.
