@@ -21,7 +21,7 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 -  what is HTML Entity?
    - https://developer.mozilla.org/en-US/docs/Glossary/Entity
    - https://www.freeformatter.com/html-entities.html
-   - (https://mothereff.in/html-entities) [HTML entity decoder]
-   - (https://dev.w3.org/html5/html-author/charref) [HTML Character entity reference chart]
+   - [HTML entity decoder](https://mothereff.in/html-entities)
+   - [HTML Character entity reference chart](https://dev.w3.org/html5/html-author/charref)
    - [Encode HTML entities in js](https://stackoverflow.com/questions/18749591/encode-html-entities-in-javascript)
 
