@@ -25,4 +25,8 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
    - [HTML entity decoder](https://mothereff.in/html-entities)
    - [HTML Character entity reference chart](https://dev.w3.org/html5/html-author/charref)
    - [Encode HTML entities in js](https://stackoverflow.com/questions/18749591/encode-html-entities-in-javascript)
+- How to escape characters in JS?
+   - We can use the backslash (\) escape character to prevent JavaScript from interpreting a quote as the end of the string.
+   - Using Template Literals
+      - Template literals are defined with backticks, and therefore both quotes and apostrophes can be used safely without any sort of  extra escaping or consideration.
 
