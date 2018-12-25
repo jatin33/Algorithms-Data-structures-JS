@@ -19,6 +19,6 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 ## convertHTMLEntities.js
 
 -  what is HTML Entity?
-  - https://developer.mozilla.org/en-US/docs/Glossary/Entity
-  - https://www.freeformatter.com/html-entities.html
+   - https://developer.mozilla.org/en-US/docs/Glossary/Entity
+   - https://www.freeformatter.com/html-entities.html
 
