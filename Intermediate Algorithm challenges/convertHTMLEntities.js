@@ -26,23 +26,23 @@ function convertToEntity(character){
 convertHTML("<>");
 
 //===================Test Cases===================
-convertHTML("Dolce & Gabbana") should return Dolce &​amp; Gabbana.
-Passed
+// convertHTML("Dolce & Gabbana") should return Dolce &​amp; Gabbana.
+// Passed
 
-convertHTML("Hamburgers < Pizza < Tacos") should return Hamburgers &​lt; Pizza &​lt; Tacos.
-Passed
+// convertHTML("Hamburgers < Pizza < Tacos") should return Hamburgers &​lt; Pizza &​lt; Tacos.
+// Passed
 
-convertHTML("Sixty > twelve") should return Sixty &​gt; twelve.
-Passed
+// convertHTML("Sixty > twelve") should return Sixty &​gt; twelve.
+// Passed
 
-convertHTML('Stuff in "quotation marks"') should return Stuff in &​quot;quotation marks&​quot;.
-Passed
+// convertHTML('Stuff in "quotation marks"') should return Stuff in &​quot;quotation marks&​quot;.
+// Passed
 
-convertHTML("Schindler's List") should return Schindler&​apos;s List.
-Failed
+// convertHTML("Schindler's List") should return Schindler&​apos;s List but returns 'Schindler\'s List'
+// Failed
 
-convertHTML("<>") should return &​lt;&​gt;.
-Failed
+// convertHTML("<>") should return &​lt;&​gt; but returns '&lt;'
+// Failed
 
-convertHTML("abc") should return abc.
-Passed
+// convertHTML("abc") should return abc.
+// Passed
