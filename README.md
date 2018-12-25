@@ -14,4 +14,5 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 
 - What is difference between splice vs slice vs split
   - https://medium.com/@jeanpan/javascript-splice-slice-split-745b1c1c05d2
+  - https://stackoverflow.com/questions/37601282/javascript-array-splice-vs-slice
 
