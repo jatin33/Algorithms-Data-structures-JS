@@ -16,3 +16,9 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
   - https://medium.com/@jeanpan/javascript-splice-slice-split-745b1c1c05d2
   - https://stackoverflow.com/questions/37601282/javascript-array-splice-vs-slice
 
+## convertHTMLEntities.js
+
+-  what is HTML Entity?
+  - https://developer.mozilla.org/en-US/docs/Glossary/Entity
+  - https://www.freeformatter.com/html-entities.html
+
