@@ -1,26 +1,13 @@
 function convertHTML(str) {
   // &colon;&rpar;
-  const regex = new RegExp(/[!@#$%^&*(),.?":{}|<>]+/g);
-  const charToReplace = str.charAt(str.search(regex));
-  console.log(charToReplace);
-  return str.replace(regex,convertToEntity(charToReplace));
+   return str.replace(/&/g,'&amp;')
+  .replace(/>/g,'&gt;')
+  .replace(/</g,'&lt;')
+  .replace(/'/g,'&apos;')
+  .replace(/"/g,'&quot;');
 }
 // convertToEntity('>');
 
-function convertToEntity(character){
-  if(character === '>'){
-   return '&gt;'; 
-  }else if(character === '<'){
-    return '&lt;'; 
-  }else if(character === '&'){
-    return '&amp;'; 
-  }else if(character === "'"){
-    return '&apos;'; 
-  }
-  else if(character === '"'){
-    return '&quot;'; 
-  }
-}
 
 // convertToEntity('>');
 convertHTML("<>");
@@ -39,10 +26,10 @@ convertHTML("<>");
 // Passed
 
 // convertHTML("Schindler's List") should return Schindler&​apos;s List but returns 'Schindler\'s List'
-// Failed
+// Passed
 
 // convertHTML("<>") should return &​lt;&​gt; but returns '&lt;'
-// Failed
+// Passed
 
 // convertHTML("abc") should return abc.
 // Passed
