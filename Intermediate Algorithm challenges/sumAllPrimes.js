@@ -25,3 +25,10 @@ function isPrime(number){
 }
  sumPrimes(10);
 
+// ===============Test Cases Updated=================
+// sumPrimes(10) should return a number.
+// Passed
+// sumPrimes(10) should return 17.
+// Passed
+// sumPrimes(977) should return 73156.
+// Passed
