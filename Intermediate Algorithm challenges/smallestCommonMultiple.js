@@ -38,3 +38,18 @@ function lcm(a,b){
   let hcf = gcd(a,b);
   return prod/hcf;
 }
+
+
+//=====================Test Cases========================
+// smallestCommons([1, 5]) should return a number.
+// Passed
+// smallestCommons([1, 5]) should return 60.
+// Passed
+// smallestCommons([5, 1]) should return 60.
+// Passed
+// smallestCommons([2, 10]) should return 2520.
+// Passed
+// smallestCommons([1, 13]) should return 360360.
+// Passed
+// smallestCommons([23, 18]) should return 6056820.
+// Passed
