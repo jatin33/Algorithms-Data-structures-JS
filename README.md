@@ -29,4 +29,7 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
    - We can use the backslash (\) escape character to prevent JavaScript from interpreting a quote as the end of the string.
    - Using Template Literals
       - Template literals are defined with backticks, and therefore both quotes and apostrophes can be used safely without any sort of  extra escaping or consideration.
+      
+## dropit.js
+- [Difference between findIndex() and indexOf()](https://stackoverflow.com/questions/41443029/difference-between-indexof-and-findindex-function-of-array)
 
