@@ -5,6 +5,7 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 
 - Solved it using regular expression https://www.debuggex.com/r/rsXExhrJUo1k17nt
 - [Regular expression cheatsheet](https://www.debuggex.com/cheatsheet/regex/javascript)
+- [Difference between [] and () in Regex](https://stackoverflow.com/questions/3789417/whats-the-difference-between-and-in-regular-expression-patterns)
 
 ## convertToPigLatin.js
 
