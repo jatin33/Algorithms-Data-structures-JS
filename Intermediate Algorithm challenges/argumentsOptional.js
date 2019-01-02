@@ -38,3 +38,15 @@ function checkNum(num){
 }
 
  addTogether(2,3);
+
+//===========================Test Cases==========================
+// addTogether(2, 3) should return 5.
+// Passed
+// addTogether(2)(3) should return 5.
+// Passed
+// addTogether("http://bit.ly/IqT6zt") should return undefined.
+// Passed
+// addTogether(2, "3") should return undefined.
+// Passed
+// addTogether(2)([3]) should return undefined
+// Passed
