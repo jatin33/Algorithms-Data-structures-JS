@@ -28,3 +28,28 @@ var Person = function(firstAndLast) {
 
 var bob = new Person('Bob Ross');
 bob.getFullName();
+
+// //============= Test Cases ==============
+// Object.keys(bob).length should return 6.
+// Passed
+// bob instanceof Person should return true.
+// Passed
+// bob.firstName should return undefined.
+// Passed
+// bob.lastName should return undefined.
+// Passed
+// bob.getFirstName() should return "Bob".
+// Passed
+// bob.getLastName() should return "Ross".
+// Passed
+// bob.getFullName() should return "Bob Ross".
+// Passed
+// bob.getFullName() should return "Haskell Ross" after bob.setFirstName("Haskell").
+// Passed
+// bob.getFullName() should return "Haskell Curry" after bob.setLastName("Curry").
+// Passed
+// bob.getFullName() should return "Haskell Curry" after bob.setFullName("Haskell Curry").
+// Passed
+// bob.getFirstName() should return "Haskell" after bob.setFullName("Haskell Curry").
+// Passed
+// bob.getLastName() should return "Curry" after bob.setFullName("Haskell Curry")
