@@ -8,6 +8,8 @@ let dog = {
  numLegs : 2  
 };
 
+//=======When to use which approach/ pros-cons of each approach
+
 // Using function constructor
 
 // Using Object.create() method
