@@ -1,27 +1,42 @@
-Change the Prototype to a New Object
-Up until now you have been adding properties to the prototype individually:
+// Change the Prototype to a New Object
+// ===========================================================
+// Up until now you have been adding properties to the prototype individually:
 
-Bird.prototype.numLegs = 2;
-This becomes tedious after more than a few properties.
+// Bird.prototype.numLegs = 2;
+// This becomes tedious after more than a few properties.
 
-Bird.prototype.eat = function() {
-  console.log("nom nom nom");
+// Bird.prototype.eat = function() {
+//   console.log("nom nom nom");
+// }
+
+// Bird.prototype.describe = function() {
+//   console.log("My name is " + this.name);
+// }
+// A more efficient way is to set the prototype to a new object that already contains the properties. This way, the properties are added all at once:
+
+// Bird.prototype = {
+//   numLegs: 2, 
+//   eat: function() {
+//     console.log("nom nom nom");
+//   },
+//   describe: function() {
+//     console.log("My name is " + this.name);
+//   }
+// };
+// ====================================================================================================================================
+// Task given :
+// Add the property numLegs and the two methods eat() and describe() to the prototype of Dog by setting the prototype to a new object.
+function Dog(name) {
+  this.name = name; 
 }
 
-Bird.prototype.describe = function() {
-  console.log("My name is " + this.name);
-}
-A more efficient way is to set the prototype to a new object that already contains the properties. This way, the properties are added all at once:
-
-Bird.prototype = {
-  numLegs: 2, 
-  eat: function() {
-    console.log("nom nom nom");
+Dog.prototype = {
+  // Add your code below this line
+  numLegs:4,
+  eat:function(){
+    console.log('chap chap chap');
   },
-  describe: function() {
-    console.log("My name is " + this.name);
+  describe:function(){
+    console.log('My name is '+this.name);
   }
 };
-
-Task given :
-Add the property numLegs and the two methods eat() and describe() to the prototype of Dog by setting the prototype to a new object.
