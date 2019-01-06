@@ -38,6 +38,10 @@ function Dog(name,numLegs){
 Dog.prototype = Object.create(Animal.prototype);
 let dog = new Dog('boi',4);
 
+// Exceptions :
+// Object.create( ) method throws a TypeError exception if the propertiesObject parameter isn’t null.
+// Object.create( ) method throws a TypeError exception if the propertiesObject parameter is a non primitive object.
+// ===================================================================================
 
 
 // using ES6 class
