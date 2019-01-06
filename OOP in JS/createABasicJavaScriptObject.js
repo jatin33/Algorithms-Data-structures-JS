@@ -37,6 +37,9 @@ function Dog(name,numLegs){
 
 Dog.prototype = Object.create(Animal.prototype);
 let dog = new Dog('boi',4);
+console.log(dog instanceof Dog);
+// The instanceof operator tests the presence of constructor.prototype in object's prototype chain.
+// In above example it is used to check if dog is object of class Dog
 
 // Exceptions :
 // Object.create( ) method throws a TypeError exception if the propertiesObject parameter isn’t null.
