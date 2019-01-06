@@ -19,7 +19,7 @@ function Dog(name,numLegs){
 let dog = new Dog('puggy',4);
 
 // Using Object.create(prototypeObject,propertiesObject) method
-// propertiesObject -> acts as descriptor for properties added to object.
+// propertiesObject -> acts as descriptor for properties added to object.(Object which acts as a base class for other class)
 // properties -> access descriptor(get,set) or data descriptor(configurable,enumerable,value,writable)
 // Object.create() method is used to create a new object with the specified prototype object and properties. 
 // Object.create() method returns a new object with the specified prototype object and properties.
