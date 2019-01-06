@@ -40,3 +40,10 @@ Dog.prototype = {
     console.log('My name is '+this.name);
   }
 };
+
+// Doubts
+// When should we prefer one method over the other?
+// Why use assigning whole object to prototype than adding properties one by one?
+// Does it improve code readability? If yes then how?
+// Does it have any impact on performance?
+// Does it have any impact on code maintenance?
