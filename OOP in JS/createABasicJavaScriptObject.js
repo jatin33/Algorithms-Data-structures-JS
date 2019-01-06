@@ -18,8 +18,10 @@ function Dog(name,numLegs){
 }
 let dog = new Dog('puggy',4);
 
-// Using Object.create() method
-// Object.create() methord is used to create a new object with the specified prototype object and properties. 
+// Using Object.create(prototypeObject,propertiesObject) method
+// propertiesObject -> acts as descriptor for properties added to object.
+// properties -> access descriptor(get,set) or data descriptor(configurable,enumerable,value,writable)
+// Object.create() method is used to create a new object with the specified prototype object and properties. 
 // Object.create() method returns a new object with the specified prototype object and properties.
 // Object.create() is used for implementing inheritance as there is no mechanism of sub-class in js.
 function Animal(name,numLegs){
@@ -28,6 +30,9 @@ function Animal(name,numLegs){
 }
 function Dog(name,numLegs){
   Animal.call(this,name,numLegs);
+//  The call() allows for a function/method belonging to one object to be assigned and called for a different object.
+//  call() provides a new value of this to the function/method. 
+//  With call, you can write a method once and then inherit it in another object, without having to rewrite the method for the new object.
 }
 
 Dog.prototype = Object.create(Animal.prototype);
