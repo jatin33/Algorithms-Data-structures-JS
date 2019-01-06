@@ -11,7 +11,28 @@ let dog = {
 //=======When to use which approach/ pros-cons of each approach
 
 // Using function constructor
+// we use this approach when we want to create multiple objects with same properties but different values
+function Dog(name,numLegs){
+  this.name = name;
+  this.numLegs = numLegs;
+}
+let dog = new Dog('puggy',4);
 
 // Using Object.create() method
+// Object.create() methord is used to create a new object with the specified prototype object and properties. 
+// Object.create() method returns a new object with the specified prototype object and properties.
+// Object.create() is used for implementing inheritance as there is no mechanism of sub-class in js.
+function Animal(name,numLegs){
+  this.name = name;
+  this.numLegs = numLegs;
+}
+function Dog(name,numLegs){
+  Animal.call(this,name,numLegs);
+}
+
+Dog.prototype = Object.create(Animal.prototype);
+let dog = new Dog('boi',4);
+
+
 
 // using ES6 class
