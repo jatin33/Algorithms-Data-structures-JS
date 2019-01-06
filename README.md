@@ -35,5 +35,5 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 - [Difference between findIndex() and indexOf()](https://stackoverflow.com/questions/41443029/difference-between-indexof-and-findindex-function-of-array)
 
 ## OOP in JS/createaObject.js
-- [Define Properties(writable,enumerable,etc)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)
+- [Define Properties(writable,enumerable,value,configurable,get,set)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)
 
