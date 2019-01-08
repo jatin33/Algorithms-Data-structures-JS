@@ -6,6 +6,7 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 - Solved it using regular expression https://www.debuggex.com/r/rsXExhrJUo1k17nt
 - [Regular expression cheatsheet](https://www.debuggex.com/cheatsheet/regex/javascript)
 - [Difference between [] and () in Regex](https://stackoverflow.com/questions/3789417/whats-the-difference-between-and-in-regular-expression-patterns)
+- [Why do we have multiple character encodings like UTF-8,ASCII,Unicode,UTF-16,etc?](https://stackoverflow.com/questions/10088473/why-are-there-different-encoding-types)
 
 ## convertToPigLatin.js
 
