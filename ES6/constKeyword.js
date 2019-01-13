@@ -1,4 +1,4 @@
-
+// const used to create read-only variables which cannot be reassigned
 
 function printManyTimes(str) {
   "use strict";
