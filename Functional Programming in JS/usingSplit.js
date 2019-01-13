@@ -10,3 +10,10 @@ function splitify(str) {
 }
 splitify("Hello World,I-am code");
 
+// ====================Test Cases====================
+splitify("Hello World,I-am code") should return ["Hello", "World", "I", "am", "code"].
+Passed
+splitify("Earth-is-our home") should return ["Earth", "is", "our", "home"].
+Passed
+splitify("This.is.a-sentence") should return ["This", "is", "a", "sentence"].
+Passed
