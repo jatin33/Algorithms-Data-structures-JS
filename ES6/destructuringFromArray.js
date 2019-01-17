@@ -21,3 +21,10 @@ let a = 8, b = 6;
 })();
 console.log(a); // should be 6
 console.log(b); // should be 8
+
+// What is destructuring ? 
+// It is a way of extracting data from given object or array. 
+
+
+// Why destructuring needed?
+// We can achieve same results using Dot notation to extract data but we can do it using destructuring using few lines of code. 
