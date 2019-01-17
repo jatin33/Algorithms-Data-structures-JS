@@ -13,3 +13,5 @@ function getMaxOfTmrw(forecast) {
 
 console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
 
+// Hints
+// To understand destructuring try reading line #9 from right to left
