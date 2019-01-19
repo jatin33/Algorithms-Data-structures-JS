@@ -42,3 +42,7 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 - [Why and how currying](https://codeburst.io/currying-in-javascript-how-why-a0d66f1366b)
 - [Real world use case of Currying](https://lukajcb.github.io/blog/scala/2016/03/08/a-real-world-currying-example.html)
 
+## ES6/creatingExportFallback.js
+- Understanding fallback concept
+  - https://stackoverflow.com/questions/9586278/javascript-variable-fallback
+  - https://stackoverflow.com/questions/32616315/javascript-creating-a-normal-variable-fallback-if-object-property-does-not-exist
