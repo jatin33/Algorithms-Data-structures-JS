@@ -46,3 +46,9 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
 - Understanding fallback concept
   - https://stackoverflow.com/questions/9586278/javascript-variable-fallback
   - https://stackoverflow.com/questions/32616315/javascript-creating-a-normal-variable-fallback-if-object-property-does-not-exist
+
+## Regular Expressions/lookaheads.js
+- Understanding Regexes
+  - https://medium.com/tech-tajawal/regular-expressions-the-last-guide-6800283ac034
+  - https://stackoverflow.com/questions/24226953/positive-lookahead-with-javascript-regex
+  - https://www.regular-expressions.info/quickstart.html
