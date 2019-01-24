@@ -5,10 +5,18 @@
 
 // A positive lookahead will look to make sure the element in the search pattern is there, but won't actually match it.
 // A positive lookahead is used as (?=...) where the ... is the required part that is not matched.
+// x(?=y)	
+// Matches 'x' only if 'x' is followed by 'y'. This is called a lookahead.
+// For example, /Jack(?=Sprat)/ matches 'Jack' only if it is followed by 'Sprat'.
+// /Jack(?=Sprat|Frost)/ matches 'Jack' only if it is followed by 'Sprat' or 'Frost'. However, neither 'Sprat' nor 'Frost' is part of the match results.
 
 // On the other hand, a negative lookahead will look to make sure the element in the search pattern is not there.
 // A negative lookahead is used as (?!...) where the ... is the pattern that you do not want to be there. 
 // The rest of the pattern is returned if the negative lookahead part is not present.
+// x(?!y)	
+// Matches 'x' only if 'x' is not followed by 'y'. This is called a negated lookahead.
+// For example, /\d+(?!\.)/ matches a number only if it is not followed by a decimal point. 
+// The regular expression /\d+(?!\.)/.exec("3.141") matches '141' but not '3.141'.
 
 // Lookaheads are a bit confusing but some examples will help.
 
