@@ -1,0 +1,14 @@
+1. Callback 
+	- What are they?
+	- Why do we use them?
+	- How do we use them?
+		- Its syntax
+	- this keyword and callback relation
+	- What are its disadvantages?
+	- How do we overcome callback disadvantages?
+
+2. Promise
+
+3. Generator
+
+4. async / await
