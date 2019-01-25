@@ -52,3 +52,8 @@ Here I try to solve algorithm problems provided by freeCodeCamp community in jav
   - https://medium.com/tech-tajawal/regular-expressions-the-last-guide-6800283ac034
   - https://stackoverflow.com/questions/24226953/positive-lookahead-with-javascript-regex
   - https://www.regular-expressions.info/quickstart.html
+
+## Asynchronous Programming in JS
+  - https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0
+  - http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
+  - http://callbackhell.com/
