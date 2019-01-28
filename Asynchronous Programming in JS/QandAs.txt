@@ -8,6 +8,11 @@
 	- How do we overcome callback disadvantages?
 
 2. Promise
+	- What is a promise?
+	- How to create it?
+	- How to handle/use it in code?
+	- What are it's classic use cases?
+	
 
 3. Generator
 
