@@ -23,8 +23,8 @@ class LinkList{
                 current = current.next; 
              }
              current.next = newNode;
-             this.size++;
-        }
+            }
+            this.size++;
     }
 
     print(){
@@ -38,6 +38,10 @@ class LinkList{
                 current = current.next;
             }
         }
+    }
+
+    size_of_list(){
+        return this.size;
     }
 }
 
