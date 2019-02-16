@@ -40,8 +40,12 @@ class LinkList{
         }
     }
 
-    size_of_list(){
+    sizeOfList(){
         return this.size;
+    }
+
+    isEmpty(){
+        return this.head;
     }
 }
 
