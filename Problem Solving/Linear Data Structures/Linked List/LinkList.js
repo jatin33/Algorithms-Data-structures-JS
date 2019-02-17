@@ -27,6 +27,7 @@ class LinkList{
             this.size++;
     }
 
+
     print(){
         let current;
         if(this.head === null){
@@ -40,12 +41,26 @@ class LinkList{
         }
     }
 
+
     sizeOfList(){
         return this.size;
     }
 
     isEmpty(){
         return this.head;
+    }
+
+    indexOf(element){
+        let count = 0;
+        let current = this.head;
+        while(current != null){
+            if(current.value === element){
+               return count; 
+            }
+            count++;
+            current = current.next;
+        }
+        return -1;
     }
 }
 
