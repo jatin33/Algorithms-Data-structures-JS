@@ -76,6 +76,20 @@ class LinkList{
         let count = 0;
         if(pos == 0){
             this.head = curr.next; // removes element from head
+        }else if(pos === this.size){
+            while(count < pos){
+                prev = curr;
+                curr = curr.next;
+                count++;
+            }
+            prev.next = null;
+        }else{
+            while(count < pos){
+               prev = curr;
+               curr = curr.next;
+               count++; 
+            }
+            prev.next = curr.next;
         }
         this.size--;
     }
@@ -110,4 +124,5 @@ linkList.add(4);
 linkList.print();
 linkList.insertAt(11,4);
 linkList.print();
-linkList.remove(0);
+linkList.remove(2);
+linkList.print();
