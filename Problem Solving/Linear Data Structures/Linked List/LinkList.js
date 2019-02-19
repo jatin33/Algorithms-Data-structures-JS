@@ -45,8 +45,8 @@ class LinkList{
     insertAt(element,pos){
         let nodeToInsert = new Node(element);
         let count = 0;
-            let current = this.head;
-            let previous;
+        let current = this.head;
+        let previous;
         if(pos === 0){
             nodeToInsert.next = this.head;
             this.head = nodeToInsert;
@@ -68,7 +68,17 @@ class LinkList{
             previous.next = nodeToInsert;
         this.size++;
         }
-    }   
+    }
+    
+    remove(pos){
+        let curr = this.head;
+        let prev;
+        let count = 0;
+        if(pos == 0){
+            this.head = curr.next; // removes element from head
+        }
+        this.size--;
+    }
 
     sizeOfList(){
         return this.size;
@@ -100,3 +110,4 @@ linkList.add(4);
 linkList.print();
 linkList.insertAt(11,4);
 linkList.print();
+linkList.remove(0);
