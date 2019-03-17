@@ -1,5 +1,20 @@
- function palindrome(str){
-   return true; 
+ const palindrome = function (str){ 
+   let arrOfLetters = buildAlphaNumericString(str).split('');
+   let Stack = [...arrOfLetters];
+   let isPalindrome = true;
+   for(let i = 0; i < arrOfLetters.length;i++){
+       if(arrOfLetters[i] !== Stack.pop()){
+        isPalindrome = false;
+       }
+   } 
+   return isPalindrome; 
 }
 
-module.exports = palindrome;
+const buildAlphaNumericString = function (str){
+    return str.replace(/[^a-zA-Z0-9+]/gi,'').toLowerCase();
+}
+
+module.exports = {
+    'palindrome' : palindrome,
+    'buildAlphaNumericString': buildAlphaNumericString
+}
