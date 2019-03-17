@@ -1,6 +1,6 @@
  const palindrome = function (str){ 
-   let arrOfLetters = buildAlphaNumericString(str).split('');
-   let Stack = [...arrOfLetters];
+   const arrOfLetters = buildAlphaNumericString(str).split('');
+   const Stack = [...arrOfLetters];
    let isPalindrome = true;
    for(let i = 0; i < arrOfLetters.length;i++){
        if(arrOfLetters[i] !== Stack.pop()){
