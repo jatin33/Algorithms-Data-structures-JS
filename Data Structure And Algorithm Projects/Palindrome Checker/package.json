@@ -1,0 +1,14 @@
+{
+  "name": "palidrome-checker",
+  "version": "1.0.0",
+  "description": "Checks if a string is palindrome or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": "Jatin Panjwani",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
