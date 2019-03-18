@@ -1,0 +1,14 @@
+{
+  "name": "roman-numeral-convertor",
+  "version": "1.0.0",
+  "description": "Converts Roman numerals to decimal numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jatin Panjwani",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
