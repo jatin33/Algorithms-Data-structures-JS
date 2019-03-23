@@ -1,0 +1,11 @@
+{
+  "name": "caeser-cipher",
+  "version": "1.0.0",
+  "description": "Decodes and generates normal string from caeser cipher",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Jatin Panjwani",
+  "license": "ISC"
+}
