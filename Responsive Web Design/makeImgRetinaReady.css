@@ -1,0 +1,8 @@
+/* The simplest way to make your images appear "retina" 
+(and optimize them for retina displays) is to define their width and height values as only half of 
+what the original file is. */
+
+img {
+    height: 100px;
+    width: 100px;
+}
